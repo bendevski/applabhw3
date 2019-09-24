@@ -1,22 +1,48 @@
-.App {
-  text-align: center;
+body{
+    background-color: lightgray;
 }
-
-.App-logo {
-  height: 40vmin;
+h2 {
+    position: relative;
+    left: 130px;
+    color: white;
+    border: 15px black;
+    border-style: groove;
+    background-color: gray;
+    margin: 20px;
+    font-size: 40px;
+    font-style: oblique;
+    max-width: 300px;
+    text-align: center;
+    vertical-align: middle;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+    font-size: 20px;
+    font: bold;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    left: 40px;
+    position: relative;
+    border: 4px groove black;
+    max-width: 300px;
+    text-align: center;
+    
 }
+.ref{
+    position: absolute;
+    color:black;
+    border: none;
+    background-color: lightgray;
+    max-width: none;
+    font-size: 20px;
+    left: 0px;
+    text-decoration: none;
+}
+a{
+    border: 10px solid darkgray;
+}
+#luis{
+    position: relative;
+    top: 40px;
+    text-decoration: overline;
 
-.App-link {
-  color: #09d3ac;
 }
